@@ -1,0 +1,29 @@
+
+Desafiante: Marcos  Competidor: Guilherme
+Palavra: Carro
+Competidor venceu!
+
+Desafiante: 1  Competidor: 1
+Palavra: 1
+Competidor venceu!
+
+Desafiante: 1& C:/Users/guilh/AppData/Local/Programs/Python/Python311/python.exe c:/Users/guilh/OneDrive/Documentos/GitHub/jogo-da-forca/jogo_da_forca/forcamain.py  Competidor: & C:/Users/guilh/AppData/Local/Programs/Python/Python311/python.exe c:/Users/guilh/OneDrive/Documentos/GitHub/jogo-da-forca/jogo_da_forca/forcamain.py
+Desafiante: 1  Competidor: 1
+Palavra: 1
+Desafiante: 1  Competidor: 1
+Palavra: 1
+Competidor venceu!
+
+Desafiante: guliherme  Competidor: marcos
+Palavra: carro
+Competidor venceu!
+
+Desafiante: guilherme  Competidor: marcos
+Palavra: carro
+Desafiante: 1  Competidor: 1
+Palavra: 1
+Competidor venceu!
+
+Desafiante: 2  Competidor: 2
+Palavra: 2
+Competidor venceu!

@@ -76,8 +76,13 @@ while True:
                     if "*" not in numeroletras:
                         limparTela()
                         print("Parabéns, você venceu!")
-                        input("-=-=- Pressione a tecla Enter -=-=-")
                         competidor_vencedor()
+                        with open('lista_de_participantes.txt', 'r') as arquivo:
+                            linhas = arquivo.readlines()[-3:]
+                            for linha in linhas:
+                                print(linha)
+                        input("-=-=- Pressione a tecla Enter -=-=-")
+                    
                         break
                 else:
                     if vidas == 5:
@@ -134,6 +139,10 @@ while True:
             limparTela()
             print("Que pena, você perdeu.""\n","A palavra chave era : ", palavrachave)
             desafiante_vencedor()
+            with open('lista_de_participantes.txt', 'r') as arquivo:
+                linhas = arquivo.readlines()[-3:]
+                for linha in linhas:
+                    print(linha)
             continuar = input("Deseja jogar denovo?""\n""(0) Não""\n""(1) Sim""\n")
             if continuar==0:
                 break
@@ -141,10 +150,11 @@ while True:
                 input("-=-=- Pressione a tecla Enter -=-=-")
 
     elif opcao == "2":
+        limparTela()
         try:
             arquivo = open("lista_de_participantes.txt", "r")
             dados = arquivo.read()
             print(dados)
-            input("-=-=- Pressione a tecla Enter -=-=-")
+            input("-=-=- Pressione a tecla Enter para voltar -=-=-")
         except:
             print("Arquivo não Encontrado")
