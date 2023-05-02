@@ -110,7 +110,7 @@ while True:
                         vidas -= 1 #remove uma vida
                         limparTela()
                     elif vidas == 1:
-                        print("Letra não encontrada na palavra chave."  "\n" "  +----+" "\n" "  O    |" "\n" " /|\   |" "\n" "  /\  ===")
+                        print("Letra não encontrada na palavra chave."  "\n" "  +----+" "\n" "  O    |" "\n" " /|\   |" "\n" " / \  ===")
                         print("Você errou! Agora você tem",vidas-1,"vidas restantes! ")
                         input("-=-=- Pressione a tecla Enter -=-=-")
                         vidas -= 1 #remove uma vida
