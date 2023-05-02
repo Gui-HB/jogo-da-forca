@@ -1,0 +1,7 @@
+
+Desafiante: 1  Competidor: 1
+Competidor venceu!
+Desafiante: marc  Competidor: gui
+Competidor venceu!
+Desafiante: marcos  Competidor: guilherme
+Palavra: video game
